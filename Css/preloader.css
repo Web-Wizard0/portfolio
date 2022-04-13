@@ -1,0 +1,25 @@
+
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 7;
+}
+
+.preloader .para {
+    color: #fff;
+    font-size: 54.parax;
+    font-family: sarllett, sans-serif;
+}
+.preloader .para:nth-child(1), .para:nth-child(1), .para:nth-child(1), .para:nth-child(1),  .para:nth-child(1) {
+    color: #fff;
+    -webkit-text-stroke: 1px white;
+    color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 880px) {
+    .preloader .para {
+        font-size: 30px;
+        color: #fff;
+    }   
+}
